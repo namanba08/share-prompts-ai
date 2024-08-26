@@ -1,0 +1,27 @@
+when to use SERVER SIDE / CLIENT SIDE COMPONENTS
+
+1. client side whenever using react hooks, interactivity, event listeners, etc.
+2. nested routing (post and post/:id)
+
+DATA FETCHING
+
+1. SSR
+2. SSG --> static side generation (it will fetch data and cache it also)
+3. ISR --> incremental static regeneration --> data to be statically fetched after each defined time slice --> benefits of SSR + SSG
+
+
+nextjs supports following HTTP methods:
+(used in the /app/api/whatever routes)
+1. GET
+2. POST
+3. PUT
+4. PATCH
+5. DELETE
+6. HEAD
+7. OPTIONS
+
+
+IMPROVE SEO
+--> managing metadata ways:
+1. static
+2. dynamic
