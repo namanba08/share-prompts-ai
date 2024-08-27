@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import { useSession } from "next-auth/react"
 import { useRouter } from "next/navigation"
-
+import { Suspense } from "react"
 import Profile from "@components/Profile"
 
 const MyProfile = () => {
